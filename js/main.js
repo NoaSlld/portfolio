@@ -2,135 +2,94 @@
 document.addEventListener('sectionsLoaded', () => {
     // Données des projets
     const projectData = {
-        1: {
-            title: "Application E-commerce",
-            description: `Une plateforme de commerce électronique complète offrant une expérience d'achat fluide et sécurisée. Caractéristiques principales :
+        4: {
+            title: "Jeu 3D - Angry bird inversé, les cochons contre attaquent",
+            description: `Revisite du jeu Angry Bird dans lequel ce sont les cochons qui attaquent les oiseaux. Ce dernier a la particularité d'être réalisé en 3 dimensions. Caractéristiques principales :
             
-            • Système de panier d'achat dynamique
-            • Intégration de paiement sécurisé
-            • Gestion des stocks en temps réel
-            • Interface administrateur complète
-            • Système de notation et avis clients
-            • Optimisation SEO avancée`,
+            • Projet universitaire en autonomie - 2025 (110 heures)
+            • Travail dans une équipe de 4 personnes`,
             image: "https://via.placeholder.com/800x400",
-            tags: ["React", "Node.js", "MongoDB", "Stripe", "Redux", "AWS"],
-            link: "#"
-        },
-        2: {
-            title: "Dashboard Analytics",
-            description: `Interface d'administration sophistiquée permettant la visualisation et l'analyse de données en temps réel. Fonctionnalités :
-            
-            • Graphiques interactifs personnalisables
-            • Tableaux de bord en temps réel
-            • Export de rapports automatisés
-            • Système d'alertes intelligent
-            • Analyse prédictive
-            • Interface responsive`,
-            image: "https://via.placeholder.com/800x400",
-            tags: ["Vue.js", "D3.js", "Firebase", "TypeScript", "TailwindCSS"],
+            tags: ["Three.JS", "Javascript", "HTML", "CSS"],
             link: "#"
         },
         3: {
-            title: "Application Mobile Fitness",
-            description: `Application mobile de suivi fitness complète avec synchronisation cloud et analyses détaillées. Caractéristiques :
+            title: "Applications web et mobile de lutte contre la désinformation",
+            description: `Une plateforme de commerce électronique complète offrant une expérience d'achat fluide et sécurisée. Caractéristiques principales :
             
-            • Suivi d'activités personnalisé
-            • Synchronisation multi-appareils
-            • Statistiques détaillées
-            • Plans d'entraînement adaptatifs
-            • Intégration avec appareils connectés
-            • Mode hors ligne`,
+            • Projet universitaire en autonomie - 2024 (200 heures)
+            • Travail dans une équipe de 5 personnes`,
             image: "https://via.placeholder.com/800x400",
-            tags: ["React Native", "Redux", "AWS", "Node.js", "MongoDB"],
+            tags: ["PHP", "Java", "Kotlin", "SQL", "Docker", "HTML", "CSS"],
+            link: "#"
+        },
+        2: {
+            title: "Jeu de dominos (fractions) éducative",
+            description: `Jeu de domino dans lequel les chiffres sont remplacés par des fractions. Fonctionnalités :
+            
+            • Projet universitaire en autonomie - 2023 (170 heures)`,
+            image: "https://via.placeholder.com/800x400",
+            tags: ["Javascript", "NodeJs", "socket.io", "HTML", "CSS"],
+            link: "#"
+        },
+        1: {
+            title: "pplication d'organisation pour les étudiants",
+            description: `Application web permettant de s'organiser au mieux dans notre quotidien. Caractéristiques :
+            
+            • Projet universitaire en autonomie - 2022 (180 heures)`,
+            image: "https://via.placeholder.com/800x400",
+            tags: ["NodeJs", "TypeScript", "HTML", "CSS"],
             link: "#"
         }
     };
 
     // Données des expériences
     const experienceData = {
-        1: {
-            date: "2023 - Présent",
-            title: "Développeur Full Stack Senior",
-            company: "TechCorp Solutions, Paris",
-            description: `<p>En tant que développeur senior, j'ai dirigé une équipe de 5 développeurs dans la conception et la mise en œuvre d'une architecture microservices pour une application d'entreprise à grande échelle.</p>
-            <p>Responsabilités principales :</p>
+        3: {
+            date: "2024 - Présent",
+            title: "Alternant développeur web",
+            company: "Coqpit, Clermont-Ferrand",
+            description: `<p>J'ai créé des sites webs en autonomie, en gérant le développement ainsi que le suivi du projet avec les clients.</p>
+            <p>Caractéristiques principales :</p>
             <ul>
-                <li>Conception et implémentation d'une architecture microservices</li>
-                <li>Management d'une équipe de 5 développeurs</li>
-                <li>Optimisation des performances (amélioration de 40%)</li>
-                <li>Mise en place de CI/CD avec GitHub Actions</li>
-                <li>Refactorisation du code legacy</li>
+                <li>Alternance de 1120 heures</li>
+                <li>Suivi du projet directement avec les clients</li>
+                <li>Compréhension de leurs demandes</li>
+                <li>Vulgarisation technique</li>
+                <li>Formation des clients sur l’utilisation de Wordpress</li>
+                <li>Création de sites webs avec Wordpress (ACF pro), HTML, SCSS, JS, PHP)</li>
+                <li>Participation au BNI (Business Network International) jaude business</li>
             </ul>`,
-            skills: ["React", "Node.js", "Docker", "Kubernetes", "AWS", "MongoDB"],
-            achievements: `<h4>Réalisations clés</h4>
-            <ul>
-                <li>Réduction du temps de déploiement de 45 minutes à 10 minutes</li>
-                <li>Amélioration des performances de l'application de 40%</li>
-                <li>Mise en place d'une suite de tests automatisés avec une couverture de 85%</li>
-            </ul>`
+            skills: ["Wordpress", "ACF Pro", "HTML", "SCSS", "JS", "PHP"],
         },
         2: {
-            date: "2022 - 2023",
-            title: "Lead Developer Frontend",
-            company: "StartupInno, Paris",
-            description: `<p>J'ai dirigé la refonte complète de l'interface utilisateur d'une application SaaS en croissance rapide, en mettant l'accent sur l'expérience utilisateur et les performances.</p>
-            <p>Responsabilités principales :</p>
+            date: "2024 (10 semaines)",
+            title: "Stage en développement web (full stack) en entreprise",
+            company: "Open Studio, Clermont-Ferrand",
+            description: `<p>J'ai développé un module du CMS open source Thelia et automatisé la génération de la documentation du CMS</p>
+            <p>Caractéristiques principales :</p>
             <ul>
-                <li>Architecture frontend avec React et TypeScript</li>
-                <li>Mise en place d'une bibliothèque de composants réutilisables</li>
-                <li>Optimisation des performances frontend</li>
-                <li>Collaboration avec l'équipe UX/UI</li>
-                <li>Mentorat des développeurs juniors</li>
+                <li>Développement du module CustomFrontMenu qui permet à un client de gérer ses menus en autonomie</li>
+                <li>Prise d'initiative de développer des scripts pour automatiser la création de la documentation du CMS</li>
+                <li>Choix de ne pas utiliser de librairies afin de limiter le nombre de dépendances du produit final chez le client</li>
+                <li>Mise en production</li>
+                <li>J'ai mené l'équipe de 3 personnes avec laquelle j'ai travaillé</li>
             </ul>`,
-            skills: ["React", "TypeScript", "Redux", "Styled Components", "Jest", "Webpack"],
-            achievements: `<h4>Réalisations clés</h4>
-            <ul>
-                <li>Réduction du temps de chargement initial de 60%</li>
-                <li>Mise en place d'une architecture frontend modulaire et maintenable</li>
-                <li>Augmentation de la satisfaction utilisateur de 35%</li>
-            </ul>`
+            skills: ["Javascript", "PHP 8.3", "Symfony 6", "Propel", "Smarty", "Python"],
         },
-        3: {
-            date: "2021 - 2022",
-            title: "Développeur Backend",
-            company: "DigitalSolutions, Lyon",
-            description: `<p>J'ai développé et optimisé des APIs RESTful pour une plateforme de gestion de contenu utilisée par plus de 500 000 utilisateurs.</p>
-            <p>Responsabilités principales :</p>
+        1: {
+            date: "2023 (10 semaines)",
+            title: "Stage en dévelopment web (full stack) en entreprise",
+            company: "Code Rhapsody, Lyon",
+            description: `<p>J'ai participé au développement d'une application interne de gestion des temps et de facturation automatisée</p>
+            <p>Caractéristiques principales :</p>
             <ul>
-                <li>Conception et développement d'APIs RESTful</li>
-                <li>Optimisation des requêtes de base de données</li>
-                <li>Mise en place de tests automatisés</li>
-                <li>Documentation des APIs avec Swagger</li>
-                <li>Monitoring et logging</li>
+                <li>Développement d'une application interne de gestion des temps et de facturation automatisée</li>
+                <li>Compréhension des deux applications existantes à remplacer</li>
+                <li>Propositions d'automatisations</li>
+                <li>Mise en production</li>
+                <li>Choix précis des librairies et retrait de certaines d'entre elles afin de garantir les performances et la sécurité de l'application</li>
             </ul>`,
-            skills: ["Node.js", "Express", "PostgreSQL", "Redis", "Docker", "Jest"],
-            achievements: `<h4>Réalisations clés</h4>
-            <ul>
-                <li>Réduction du temps de réponse des APIs de 70%</li>
-                <li>Mise en place d'un système de cache qui a réduit la charge du serveur de 40%</li>
-                <li>Couverture de tests de 90% pour le code backend</li>
-            </ul>`
-        },
-        4: {
-            date: "2020 - 2021",
-            title: "Développeur Web Full Stack",
-            company: "WebAgency, Paris",
-            description: `<p>J'ai participé au développement de sites e-commerce pour des clients de différents secteurs, en me concentrant sur l'intégration de systèmes de paiement et l'optimisation des performances.</p>
-            <p>Responsabilités principales :</p>
-            <ul>
-                <li>Développement frontend avec React</li>
-                <li>Développement backend avec Node.js</li>
-                <li>Intégration de passerelles de paiement (Stripe, PayPal)</li>
-                <li>Optimisation SEO</li>
-                <li>Déploiement et maintenance</li>
-            </ul>`,
-            skills: ["React", "Node.js", "MongoDB", "Stripe API", "SEO", "AWS"],
-            achievements: `<h4>Réalisations clés</h4>
-            <ul>
-                <li>Augmentation des conversions de 25% grâce à l'optimisation du tunnel d'achat</li>
-                <li>Amélioration du classement SEO pour des mots-clés compétitifs</li>
-                <li>Réduction du taux de rebond de 30%</li>
-            </ul>`
+            skills: ["Javascript", "PHP 8.2", "Symfony 6", "Doctrine", "Twig"],
         }
     };
 
