@@ -2,6 +2,41 @@
 document.addEventListener('sectionsLoaded', () => {
     // Données des projets
     const projectData = {
+        6: {
+            title: "Transformation de photos en style 'Comics'",
+            description: `Ce projet a pour but de transformer une photo classique en un effet "Comics". Grâce à une série de traitements d'image, nous appliquons des 
+            techniques de détection de contours, de réduction de couleurs et d'effets visuels pour obtenir une image stylisée qui imite l'apparence des dessins animés ou des bandes dessinées.
+            
+            • Fonctionnalités principales :
+            • Transformation en niveaux de gris :
+            La conversion de l'image en noir et blanc permet de simplifier la détection des contours et d'éliminer les couleurs inutiles.
+            • Détection des contours : Utilisation du filtre de Sobel pour détecter les bords et renforcer le contraste entre les éléments importants de l'image.
+            • Réduction des couleurs : Utilisation du K-means pour réduire le nombre de couleurs de l'image, afin de créer un effet visuel "plat" et simplifié comme dans une BD.
+            • Fusion des contours et des couleurs réduites : Les contours noirs sont superposés à l'image réduite en couleurs pour obtenir l'effet final.
+`,
+            image: "https://via.placeholder.com/800x400",
+            tags: ["Python", "Numpy", "Scipy","Sklearn","Matplotlib"],
+            link: "#"
+        },
+        5: {
+            title: "IA supervisée - Prédiction du prix de l'immobilier",
+            description: `Projet visant à comparer plusieurs modèles sur la prédiction des prix de l'immobilier et fonction d'une surface et d'un lieu
+            
+            • Projet universitaire réalisé seul  - 2025 (7 jours)
+            • L'application permet d'entraîner ces modèles sur l'historiques des transactions immobilière en France et d'estimer la valeur foncière d'un bien en fonction de sa localisation et de sa surface.
+            • Le programme: 
+            • Charge et prépare les données.
+            • Entraîne les modèles de régression.
+            • Demande à l'utilisateur des informations sur le bien immobilier.
+            • Prédit le prix du bien à l'aide des modèles entraînés.
+            • Modèles Implémentés:
+            • Régression Linéaire
+            • Random Forest
+            • LightGBM`,
+            image: "https://via.placeholder.com/800x400",
+            tags: ["Python", "Numpy", "Matplotlib", "Scikit-learn","Pandas","Lightgbm"],
+            link: "#"
+        },
         4: {
             title: "Jeu 3D - Angry bird inversé, les cochons contre attaquent",
             description: `Revisite du jeu Angry Bird dans lequel ce sont les cochons qui attaquent les oiseaux. Ce dernier a la particularité d'être réalisé en 3 dimensions. Caractéristiques principales :
