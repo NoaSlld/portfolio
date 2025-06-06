@@ -23,6 +23,11 @@
     color: var(--primary-color);
 }
 
+.logo a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
