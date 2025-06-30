@@ -78,6 +78,12 @@ section.experience{
     margin-top: 1rem;
     font-style: italic;
     font-size: 0.9rem;
+    font-weight: bold;
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 32px;
+    width: fit-content;
+    padding: 8px 16px;
 }
 
 /* Modal */

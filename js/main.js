@@ -41,10 +41,11 @@ document.addEventListener('sectionsLoaded', () => {
             title: "Jeu 3D - Angry bird inversé, les cochons contre attaquent",
             description: `Revisite du jeu Angry Bird dans lequel ce sont les cochons qui attaquent les oiseaux. Ce dernier a la particularité d'être réalisé en 3 dimensions. Caractéristiques principales :
             
-            • Projet universitaire en autonomie - 2025 (110 heures)
-            • Travail dans une équipe de 4 personnes`,
+            • Travail dans une équipe de 4 personnes
+            • La gestion des données se fait via une API fait en Symfony et une base de données MySQL
+            • Il est possible de créer et modifier des map grâce à l'éditeur de jeu créé pour l'occasion`,
             image: "https://via.placeholder.com/800x400",
-            tags: ["Three.JS", "Javascript", "HTML", "CSS"],
+            tags: ["Three.JS", "Javascript", "Symfony", "HTML", "CSS"],
             link: "#"
         },
         3: {
@@ -67,7 +68,7 @@ document.addEventListener('sectionsLoaded', () => {
             link: "#"
         },
         1: {
-            title: "pplication d'organisation pour les étudiants",
+            title: "Application d'organisation pour les étudiants",
             description: `Application web permettant de s'organiser au mieux dans notre quotidien. Caractéristiques :
             
             • Projet universitaire en autonomie - 2022 (180 heures)`,
@@ -83,16 +84,31 @@ document.addEventListener('sectionsLoaded', () => {
             date: "2024 - Présent",
             title: "Alternant développeur web",
             company: "Coqpit, Clermont-Ferrand",
-            description: `<p>J'ai créé des sites webs en autonomie, en gérant le développement ainsi que le suivi du projet avec les clients.</p>
-            <p>Caractéristiques principales :</p>
+            description: `<p>J'ai créé des sites webs en autonomie, en assurant à la fois le développement ainsi que le suivi du projet avec les clients.</p>
+            <p>Caractéristiques générales :</p>
             <ul>
                 <li>Alternance de 1120 heures</li>
                 <li>Suivi du projet directement avec les clients</li>
-                <li>Compréhension de leurs demandes</li>
+                <li>Compréhension de leurs besoins</li>
                 <li>Vulgarisation technique</li>
                 <li>Formation des clients sur l’utilisation de Wordpress</li>
-                <li>Création de sites webs avec Wordpress (ACF pro), HTML, SCSS, JS, PHP)</li>
+                <li>Création de plugin pour Wordpress via une API et développement de sites web avec WordPress (ACF pro), HTML, SCSS, JS, PHP</li>
                 <li>Participation au BNI (Business Network International) jaude business</li>
+                                <li>Formation des clients à l’utilisation de leur site</li>
+                <li>Création de sites web avec WordPress (ACF pro), HTML, SCSS, JS, PHP</li>
+                <li>Participation au BNI (Business Network International) Jaude Business</li>
+            </ul>
+            <p>Exemple de projet :</p>
+            <ul>
+                <li>Développement d'un calendrier de réservation d'un site touristique via une API</li>
+                <li>Rendez-vous avec l'entreprise canadienne en charge de l'API afin de comprendre son fonctionnement.
+                Le rendez-vous s'est déroulé en anglais avec 5 personnes.</li>
+                <li>Consommation optimisée de l'API </li>
+                <li>Restructuration des données dans des fichiers .json pour optimiser les performances lors de l'affichage par les clients</li>
+                <li>Chargement des données chaque nuit via des CRON </li>
+                <li>Développement du front-end </li>
+                <li>Réunion de nouveau en anglais avec les ingénieurs canadiens pour vérifier la qualité de mon code et l'optimisation des appels API</li>
+                <li>Mise en production de mon code</li>
             </ul>`,
             skills: ["Wordpress", "ACF Pro", "HTML", "SCSS", "JS", "PHP"],
         },
@@ -103,11 +119,11 @@ document.addEventListener('sectionsLoaded', () => {
             description: `<p>J'ai développé un module du CMS open source Thelia et automatisé la génération de la documentation du CMS</p>
             <p>Caractéristiques principales :</p>
             <ul>
-                <li>Développement du module CustomFrontMenu qui permet à un client de gérer ses menus en autonomie</li>
-                <li>Prise d'initiative de développer des scripts pour automatiser la création de la documentation du CMS</li>
-                <li>Choix de ne pas utiliser de librairies afin de limiter le nombre de dépendances du produit final chez le client</li>
+                <li>Développement du module CustomFrontMenu qui permet à un client de monitorer les menus de son site fait avec Thelia en autonomie</li>
+                <li>J'ai pris l'initiative de développer des scripts pour automatiser la création de la documentation du CMS</li>
+                <li>J'ai choisi de ne pas utiliser de librairies afin de limiter le nombre de dépendances du produit final chez le client</li>
                 <li>Mise en production</li>
-                <li>J'ai mené l'équipe de 3 personnes avec laquelle j'ai travaillé</li>
+                <li>J'ai mené l'équipe de 3 personnes dans laquelle j'ai travaillé</li>
             </ul>`,
             skills: ["Javascript", "PHP 8.3", "Symfony 6", "Propel", "Smarty", "Python"],
         },
@@ -118,9 +134,12 @@ document.addEventListener('sectionsLoaded', () => {
             description: `<p>J'ai participé au développement d'une application interne de gestion des temps et de facturation automatisée</p>
             <p>Caractéristiques principales :</p>
             <ul>
-                <li>Développement d'une application interne de gestion des temps et de facturation automatisée</li>
+                <li>Développement d'une application interne de gestion des temps et de facturation automatisée. 
+                Elle contient un calendirer avec des filtres par équipe, projets etc. Les heures réalisées sont 
+                pré-remplies dans les fiches de saisie des heures travaillées. En fonction du nombre d'heures rélaisées sur chaque projet,
+                les indicateurs sur les couts du projet se mettent automatiquement à jour.</li>
                 <li>Compréhension des deux applications existantes à remplacer</li>
-                <li>Propositions d'automatisations</li>
+                <li>J'ai proposé d'automatiser certaines fonctionnalités</li> 
                 <li>Mise en production</li>
                 <li>Choix précis des librairies et retrait de certaines d'entre elles afin de garantir les performances et la sécurité de l'application</li>
             </ul>`,
