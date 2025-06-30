@@ -10,12 +10,6 @@ Disallow: /js/
 Disallow: /test/
 Disallow: /draft/
 
-# Empêcher les moteurs de rechercher des URLs avec des paramètres
-Disallow: /*?
-
-# Ajout de délai entre les requêtes pour les bots mal configurés (facultatif)
-Crawl-delay: 5
-
 # Autoriser les crawlers spécifiques (facultatif)
 User-agent: Googlebot
 Allow: /
