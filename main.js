@@ -112,51 +112,8 @@ if (testimonialSlider) {
     testimonialSlider.addEventListener('mouseleave', startAutoSlide);
 }
 
-// Project modal
-const projectData = {
-    1: {
-        title: "Application E-commerce",
-        description: `Une plateforme de commerce électronique complète offrant une expérience d'achat fluide et sécurisée. Caractéristiques principales :
-        
-        • Système de panier d'achat dynamique
-        • Intégration de paiement sécurisé
-        • Gestion des stocks en temps réel
-        • Interface administrateur complète
-        • Système de notation et avis clients
-        • Optimisation SEO avancée`,
-        image: "https://via.placeholder.com/800x400",
-        tags: ["React", "Node.js", "MongoDB", "Stripe", "Redux", "AWS"],
-        link: "#"
-    },
-    2: {
-        title: "Dashboard Analytics",
-        description: `Interface d'administration sophistiquée permettant la visualisation et l'analyse de données en temps réel. Fonctionnalités :
-        
-        • Graphiques interactifs personnalisables
-        • Tableaux de bord en temps réel
-        • Export de rapports automatisés
-        • Système d'alertes intelligent
-        • Analyse prédictive
-        • Interface responsive`,
-        image: "https://via.placeholder.com/800x400",
-        tags: ["Vue.js", "D3.js", "Firebase", "TypeScript", "TailwindCSS"],
-        link: "#"
-    },
-    3: {
-        title: "Application Mobile Fitness",
-        description: `Application mobile de suivi fitness complète avec synchronisation cloud et analyses détaillées. Caractéristiques :
-        
-        • Suivi d'activités personnalisé
-        • Synchronisation multi-appareils
-        • Statistiques détaillées
-        • Plans d'entraînement adaptatifs
-        • Intégration avec appareils connectés
-        • Mode hors ligne`,
-        image: "https://via.placeholder.com/800x400",
-        tags: ["React Native", "Redux", "AWS", "Node.js", "MongoDB"],
-        link: "#"
-    }
-};
+
+
 
 const modal = document.getElementById('projectModal');
 const modalImage = modal.querySelector('.modal-image');

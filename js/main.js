@@ -78,23 +78,38 @@ document.addEventListener('sectionsLoaded', () => {
         }
     };
 
+
+
+
     // Données des expériences
     const experienceData = {
+        4: {
+            date: "09/2025 - actuellement",
+            title: "Alternant chef de projet / développeur web",
+            company: "Coqpit, Clermont-Ferrand",
+            description: `<p></p>
+            <ul>
+                <li>Pilotage complet des projets web en autonomie : priorisation des tâches, coordination des parties prenantes et suivi de l’avancement via Trello.</li>
+                <li>Mise en place et standardisation de process internes afin d’optimiser la gestion de projet et la relation client (templates de cahier des charges, questionnaires de satisfaction, livret d'accompagnement client).</li>
+                <li>Conception et développement de sites web sur mesure utilisant WordPress (PHP, JavaScript, HTML, SCSS, ACF Pro).</li>
+                <li>Livraison, accompagnement et formation client : présentation des livrables, traitement des retours, formation du client à l'utilisation de son site, maintenance évolutive.</li>
+            </ul>`,
+            skills: ["JS", "PHP", "HTML", "SCSS", "Wordpress", "ACF Pro"],
+        },
         3: {
-            date: "2024 - Présent",
+            date: "09/2024 - 09/2025 (1 an)",
             title: "Alternant développeur web",
             company: "Coqpit, Clermont-Ferrand",
-            description: `<p>J'ai créé des sites webs en autonomie, en assurant à la fois le développement ainsi que le suivi du projet avec les clients.</p>
+            description: `<p>Je créais des sites webs sur mesure en autonomie, en assurant à la fois le développement ainsi que le suivi du projet avec les clients.</p>
             <p>Caractéristiques générales :</p>
             <ul>
-                <li>Alternance de 1120 heures</li>
                 <li>Suivi du projet directement avec les clients</li>
                 <li>Compréhension de leurs besoins</li>
                 <li>Vulgarisation technique</li>
                 <li>Formation des clients sur l’utilisation de Wordpress</li>
                 <li>Création de plugin pour Wordpress via une API et développement de sites web avec WordPress (ACF pro), HTML, SCSS, JS, PHP</li>
                 <li>Participation au BNI (Business Network International) jaude business</li>
-                                <li>Formation des clients à l’utilisation de leur site</li>
+                <li>Formation des clients à l’utilisation de leur site</li>
                 <li>Création de sites web avec WordPress (ACF pro), HTML, SCSS, JS, PHP</li>
                 <li>Participation au BNI (Business Network International) Jaude Business</li>
             </ul>
@@ -110,7 +125,7 @@ document.addEventListener('sectionsLoaded', () => {
                 <li>Réunion de nouveau en anglais avec les ingénieurs canadiens pour vérifier la qualité de mon code et l'optimisation des appels API</li>
                 <li>Mise en production de mon code</li>
             </ul>`,
-            skills: ["Wordpress", "ACF Pro", "HTML", "SCSS", "JS", "PHP"],
+            skills: ["JS", "PHP", "HTML", "SCSS", "Wordpress", "ACF Pro"],
         },
         2: {
             date: "2024 (10 semaines)",
