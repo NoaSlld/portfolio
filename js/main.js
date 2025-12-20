@@ -89,7 +89,7 @@ document.addEventListener('sectionsLoaded', () => {
             company: "Coqpit, Clermont-Ferrand",
             description: `<p></p>
             <ul>
-                <li>Pilotage complet des projets web en autonomie : priorisation des tâches, coordination des parties prenantes et suivi de l’avancement via Trello.</li>
+                <li>Pilotage complet des projets web en autonomie : priorisation des tâches, coordination des parties prenantes et suivi de l’avancement via un kanban (Trello).</li>
                 <li>Mise en place et standardisation de process internes afin d’optimiser la gestion de projet et la relation client (templates de cahier des charges, questionnaires de satisfaction, livret d'accompagnement client).</li>
                 <li>Conception et développement de sites web sur mesure utilisant WordPress (PHP, JavaScript, HTML, SCSS, ACF Pro).</li>
                 <li>Livraison, accompagnement et formation client : présentation des livrables, traitement des retours, formation du client à l'utilisation de son site, maintenance évolutive.</li>
